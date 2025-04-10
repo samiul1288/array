@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-//remove bad element
+//remove bad element like 1 2 2 3 4 4 2  5  5 2 it will remove maximum frquency 2 then print the size of the array
 int main() {
 	int t,n,arr[100001];
 	cin >> t;
